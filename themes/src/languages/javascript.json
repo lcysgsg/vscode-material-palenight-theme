@@ -1,0 +1,117 @@
+[
+  {
+    "name": "JavaScript Classes",
+    "scope": "meta.class entity.name.type.class.js",
+    "settings": {
+      "foreground": "#FFCB8B"
+    }
+  },
+  {
+    "name": "JavaScript Method Declaration e.g. `constructor`",
+    "scope": "meta.method.declaration storage.type.js",
+    "settings": {
+      "foreground": "#82AAFF",
+      "fontStyle": "normal"
+    }
+  },
+  {
+    "name": "JavaScript Terminator",
+    "scope": "terminator.js",
+    "settings": {
+      "foreground": "#dce6f6"
+    }
+  },
+  {
+    "name": "JavaScript Punctuation Definition",
+    "scope": "",
+    "settings": {
+      "foreground": "#BFC7D5"
+    }
+  },
+  {
+    "name": "JavaScript Meta Punctuation Definition",
+    "scope": "meta.js punctuation.definition.js",
+    "settings": {
+      "foreground": "#dce6f6"
+    }
+  },
+  {
+    "name": "JSDoc Entity Names",
+    "scope": "entity.name.type.instance.jsdoc",
+    "settings": {
+      "foreground": "#eeffff"
+    }
+  },
+  {
+    "name": "JSDoc Other Variables",
+    "scope": "variable.other.jsdoc",
+    "settings": {
+      "foreground": "#78ccf0"
+    }
+  },
+  {
+    "name": "JavaScript Support Variable DOM",
+    "scope": "support.variable.dom.js",
+    "settings": {
+      "foreground": "#ffcb6b"
+    }
+  },
+  {
+    "name": "JavaScript module import",
+    "scope": [
+      "variable.other.meta.import.js",
+      "meta.import.js variable.other"
+    ],
+    "settings": {
+      "foreground": "#82AAFF"
+    }
+  },
+  {
+    "name": "JavaScript Variable Parameter Function",
+    "scope": "variable.parameter.function.js",
+    "settings": {
+      "foreground": "#7986E7"
+    }
+  },
+  {
+    "name": "JavaScript Variable Other ReadWrite",
+    "scope": "variable.other.readwrite.js",
+    "settings": {
+      "foreground": "#bfc7d5"
+    }
+  },
+  {
+    "name": "JavaScript Variable Other Object",
+    "scope": "variable.other.object.js",
+    "settings": {
+      "foreground": "#bfc7d5"
+    }
+  },
+  {
+    "name": "JavaScript Variable",
+    "scope": [
+      "variable.js",
+      "variable.other.js"
+    ],
+    "settings": {
+      "foreground": "#bfc7d5"
+    }
+  },
+  {
+    "name": "JavaScript Entity Name Type",
+    "scope": [
+      "entity.name.type.js",
+      "entity.name.type.module.js"
+    ],
+    "settings": {
+      "foreground": "#ffcb8b"
+    }
+  },
+  {
+    "name": "JavaScript Support Classes",
+    "scope": "support.class.js",
+    "settings": {
+      "foreground": "#bfc7d5"
+    }
+  }
+]

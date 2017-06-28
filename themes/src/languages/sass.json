@@ -1,0 +1,64 @@
+[
+  {
+    "name": "SCSS Variable",
+    "scope": [
+      "variable.scss",
+      "variable.sass",
+      "variable.parameter.url.scss",
+      "variable.parameter.url.sass"
+    ],
+    "settings": {
+      "foreground": "#F78C6C"
+    }
+  },
+  {
+    "name": "Variables in SASS At-Rules",
+    "scope": [
+      "source.css.scss meta.at-rule variable",
+      "source.css.sass meta.at-rule variable"
+    ],
+    "settings": {
+      "foreground": "#82AAFF"
+    }
+  },
+  {
+    "name": "Variables in SASS At-Rules",
+    "scope": [
+      "source.css.scss meta.at-rule variable",
+      "source.css.sass meta.at-rule variable"
+    ],
+    "settings": {
+      "foreground": "#bec5d4"
+    }
+  },
+  {
+    "name": "Attribute Name for SASS",
+    "scope": [
+      "meta.attribute-selector.scss entity.other.attribute-name.attribute",
+      "meta.attribute-selector.sass entity.other.attribute-name.attribute"
+    ],
+    "settings": {
+      "foreground": "#F78C6C"
+    }
+  },
+  {
+    "name": "Tag names in SASS",
+    "scope": [
+      "entity.name.tag.scss",
+      "entity.name.tag.sass"
+    ],
+    "settings": {
+      "foreground": "#ff5370"
+    }
+  },
+  {
+    "name": "SASS Keyword Other Unit",
+    "scope": [
+      "keyword.other.unit.scss",
+      "keyword.other.unit.sass"
+    ],
+    "settings": {
+      "foreground": "#FFEB95"
+    }
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "CSS Tag names",
+    "scope": [
+      "entity.name.tag.css",
+      "entity.name.tag.less",
+      "entity.name.tag.custom.css"
+    ],
+    "settings": {
+      "foreground": "#ff5370"
+    }
+  },
+  {
+    "name": "CSS Keyword Other Unit",
+    "scope": "keyword.other.unit.css",
+    "settings": {
+      "foreground": "#FFEB95"
+    }
+  },
+  {
+    "name": "Attribute Name for CSS",
+    "scope": "meta.attribute-selector.css entity.other.attribute-name.attribute",
+    "settings": {
+      "foreground": "#F78C6C"
+    }
+  }
+]

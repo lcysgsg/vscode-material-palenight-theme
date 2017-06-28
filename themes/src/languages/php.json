@@ -1,0 +1,16 @@
+[
+  {
+    "name": "PHP Variable",
+    "scope": "variable.other.php",
+    "settings": {
+      "foreground": "#bec5d4"
+    }
+  },
+  {
+    "name": "PHP Global Safer Variable",
+    "scope": "variable.other.global.safer.php",
+    "settings": {
+      "foreground": "#ffcb6b"
+    }
+  }
+]
