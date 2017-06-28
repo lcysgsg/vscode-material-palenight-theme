@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Italicsify for Operator Mono",
+    "scope": [
+      "source.json meta.structure.dictionary support.type.property-name.json",
+      "meta.tag.sgml.doctype.html",
+      "entity.name.tag.doctype",
+      "meta.tag.sgml.doctype",
+      "entity.other.attribute-name",
+      "entity.name.tag.custom",
+      "source.js.jsx keyword.control.flow.js",
+      "punctuation.section.embedded",
+      "variable.assignment.coffee",
+      "constant.language.boolean",
+      "constant.language.null",
+      "italic",
+      "quote",
+      "keyword",
+      "storage",
+      "constant.language",
+      "variable.language",
+      "type .function",
+      "type.function",
+      "storage.type.class",
+      "type.var",
+      "meta.parameter",
+      "keyword.control",
+      "modifier",
+      "this",
+      "comment"
+    ],
+    "settings": {
+      "fontStyle": "italic"
+    }
+  }
+]
