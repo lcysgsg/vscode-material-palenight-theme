@@ -1,8 +1,11 @@
+node_modules
+src/**
+.vscode/**
 demos/**
 **/*.map
+.eslintrc
+.gulp
 .gitignore
-node_modules
-tm.json
-old-theme.json
 .editorconfig
-
+.babelrc
+yarn.lock
