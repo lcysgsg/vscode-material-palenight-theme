@@ -6,7 +6,7 @@
       "meta.function-call.arguments.python"
     ],
     "settings": {
-      "foreground": "#7986E7"
+      "foreground": "{{palette.blue.fading}}"
     }
   },
   {
@@ -16,21 +16,21 @@
       "meta.function-call.generic.python"
     ],
     "settings": {
-      "foreground": "#B2CCD6"
+      "foreground": "{{palette.grey.sweet}}"
     }
   },
   {
     "name": "Punctuations in Python",
     "scope": "punctuation.python",
     "settings": {
-      "foreground": "#bfc7d5"
+      "foreground": "{{palette.grey.grey}}"
     }
   },
   {
     "name": "Python Language Variable",
     "scope": "source.python variable.language.special",
     "settings": {
-      "foreground": "#8EACE3"
+      "foreground": "{{palette.blue.light}}"
     }
   }
 ]

@@ -3,21 +3,21 @@
     "name": "CoffeScript Variable Assignment",
     "scope": "variable.assignment.coffee",
     "settings": {
-      "foreground": "#9cc3d2"
+      "foreground": "{{palette.blue.sea}}"
     }
   },
   {
     "name": "CoffeScript Parameter Function",
     "scope": "variable.parameter.function.coffee",
     "settings": {
-      "foreground": "#bfc7d5"
+      "foreground": "{{palette.grey.grey}}"
     }
   },
   {
     "name": "CoffeeScript Assignments",
     "scope": "variable.assignment.coffee",
     "settings": {
-      "foreground": "#89DDFF"
+      "foreground": "{{palette.blue.sea}}"
     }
   }
 ]

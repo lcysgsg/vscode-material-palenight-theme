@@ -3,7 +3,7 @@
     "name": "TypeScript ReadWrite Variable",
     "scope": "variable.other.readwrite.ts",
     "settings": {
-      "foreground": "#bfc7d5"
+      "foreground": "{{palette.grey.grey}}"
     }
   }
 ]

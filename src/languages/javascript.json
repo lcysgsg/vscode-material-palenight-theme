@@ -3,14 +3,14 @@
     "name": "JavaScript Classes",
     "scope": "meta.class entity.name.type.class.js",
     "settings": {
-      "foreground": "#FFCB8B"
+      "foreground": "{{palette.yellow.slight}}"
     }
   },
   {
     "name": "JavaScript Method Declaration e.g. `constructor`",
     "scope": "meta.method.declaration storage.type.js",
     "settings": {
-      "foreground": "#82AAFF",
+      "foreground": "{{palette.blue.cool}}",
       "fontStyle": "normal"
     }
   },
@@ -18,42 +18,42 @@
     "name": "JavaScript Terminator",
     "scope": "terminator.js",
     "settings": {
-      "foreground": "#dce6f6"
+      "foreground": "{{palette.grey.grey}}"
     }
   },
   {
     "name": "JavaScript Punctuation Definition",
     "scope": "",
     "settings": {
-      "foreground": "#BFC7D5"
+      "foreground": "{{palette.grey.grey}}"
     }
   },
   {
     "name": "JavaScript Meta Punctuation Definition",
     "scope": "meta.js punctuation.definition.js",
     "settings": {
-      "foreground": "#dce6f6"
+      "foreground": "{{palette.grey.grey}}"
     }
   },
   {
     "name": "JSDoc Entity Names",
     "scope": "entity.name.type.instance.jsdoc",
     "settings": {
-      "foreground": "#eeffff"
+      "foreground": "{{palette.white.off}}"
     }
   },
   {
     "name": "JSDoc Other Variables",
     "scope": "variable.other.jsdoc",
     "settings": {
-      "foreground": "#78ccf0"
+      "foreground": "{{palette.blue.lighter}}"
     }
   },
   {
     "name": "JavaScript Support Variable DOM",
     "scope": "support.variable.dom.js",
     "settings": {
-      "foreground": "#ffcb6b"
+      "foreground": "{{palette.yellow.dark}}"
     }
   },
   {
@@ -63,28 +63,28 @@
       "meta.import.js variable.other"
     ],
     "settings": {
-      "foreground": "#82AAFF"
+      "foreground": "{{palette.blue.cool}}"
     }
   },
   {
     "name": "JavaScript Variable Parameter Function",
     "scope": "variable.parameter.function.js",
     "settings": {
-      "foreground": "#7986E7"
+      "foreground": "{{palette.blue.fading}}"
     }
   },
   {
     "name": "JavaScript Variable Other ReadWrite",
     "scope": "variable.other.readwrite.js",
     "settings": {
-      "foreground": "#bfc7d5"
+      "foreground": "{{palette.grey.grey}}"
     }
   },
   {
     "name": "JavaScript Variable Other Object",
     "scope": "variable.other.object.js",
     "settings": {
-      "foreground": "#bfc7d5"
+      "foreground": "{{palette.grey.grey}}"
     }
   },
   {
@@ -94,7 +94,7 @@
       "variable.other.js"
     ],
     "settings": {
-      "foreground": "#bfc7d5"
+      "foreground": "{{palette.grey.grey}}"
     }
   },
   {
@@ -104,14 +104,14 @@
       "entity.name.type.module.js"
     ],
     "settings": {
-      "foreground": "#ffcb8b"
+      "foreground": "{{palette.yellow.slight}}"
     }
   },
   {
     "name": "JavaScript Support Classes",
     "scope": "support.class.js",
     "settings": {
-      "foreground": "#bfc7d5"
+      "foreground": "{{palette.grey.grey}}"
     }
   }
 ]

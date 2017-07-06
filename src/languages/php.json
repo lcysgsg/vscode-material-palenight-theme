@@ -3,14 +3,14 @@
     "name": "PHP Variable",
     "scope": "variable.other.php",
     "settings": {
-      "foreground": "#bec5d4"
+      "foreground": "{{palette.grey.awesome}}"
     }
   },
   {
     "name": "PHP Global Safer Variable",
     "scope": "variable.other.global.safer.php",
     "settings": {
-      "foreground": "#ffcb6b"
+      "foreground": "{{palette.yellow.dark}}"
     }
   }
 ]

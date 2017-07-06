@@ -3,21 +3,21 @@
     "name": "ID Attribute Name in HTML",
     "scope": "entity.other.attribute-name.id.html",
     "settings": {
-      "foreground": "#ffcb6b"
+      "foreground": "{{palette.yellow.dark}}"
     }
   },
   {
     "name": "HTML Punctuation Definition Tag",
     "scope": "punctuation.definition.tag.html",
     "settings": {
-      "foreground": "#89DDFF"
+      "foreground": "{{palette.blue.sea}}"
     }
   },
   {
     "name": "HTML Doctype",
     "scope": "meta.tag.sgml.doctype.html",
     "settings": {
-      "foreground": "#c792ea"
+      "foreground": "{{palette.purple}}"
     }
   }
 ]

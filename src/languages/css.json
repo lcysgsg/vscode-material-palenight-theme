@@ -7,21 +7,21 @@
       "entity.name.tag.custom.css"
     ],
     "settings": {
-      "foreground": "#ff5370"
+      "foreground": "{{palette.red.light}}"
     }
   },
   {
     "name": "CSS Keyword Other Unit",
     "scope": "keyword.other.unit.css",
     "settings": {
-      "foreground": "#FFEB95"
+      "foreground": "{{palette.yellow.lighter}}"
     }
   },
   {
     "name": "Attribute Name for CSS",
     "scope": "meta.attribute-selector.css entity.other.attribute-name.attribute",
     "settings": {
-      "foreground": "#F78C6C"
+      "foreground": "{{palette.orange}}"
     }
   }
 ]

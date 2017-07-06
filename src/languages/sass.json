@@ -8,7 +8,7 @@
       "variable.parameter.url.sass"
     ],
     "settings": {
-      "foreground": "#F78C6C"
+      "foreground": "{{palette.orange}}"
     }
   },
   {
@@ -18,7 +18,7 @@
       "source.css.sass meta.at-rule variable"
     ],
     "settings": {
-      "foreground": "#82AAFF"
+      "foreground": "{{palette.blue.cool}}"
     }
   },
   {
@@ -28,7 +28,7 @@
       "source.css.sass meta.at-rule variable"
     ],
     "settings": {
-      "foreground": "#bec5d4"
+      "foreground": "{{palette.grey.awesome}}"
     }
   },
   {
@@ -38,7 +38,7 @@
       "meta.attribute-selector.sass entity.other.attribute-name.attribute"
     ],
     "settings": {
-      "foreground": "#F78C6C"
+      "foreground": "{{palette.orange}}"
     }
   },
   {
@@ -48,7 +48,7 @@
       "entity.name.tag.sass"
     ],
     "settings": {
-      "foreground": "#ff5370"
+      "foreground": "{{palette.red.light}}"
     }
   },
   {
@@ -58,7 +58,7 @@
       "keyword.other.unit.sass"
     ],
     "settings": {
-      "foreground": "#FFEB95"
+      "foreground": "{{palette.yellow.lighter}}"
     }
   }
 ]

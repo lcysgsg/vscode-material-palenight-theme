@@ -3,28 +3,28 @@
     "name": "JSON Property Names",
     "scope": "support.type.property-name.json",
     "settings": {
-      "foreground": "#C3E88D"
+      "foreground": "{{palette.green.lighter}}"
     }
   },
   {
     "name": "JSON Property values (string)",
     "scope": "meta.structure.dictionary.value.json string.quoted.double",
     "settings": {
-      "foreground": "#80CBC4"
+      "foreground": "{{palette.green.cool}}"
     }
   },
   {
     "name": "Strings in JSON values",
     "scope": "string.quoted.double.json punctuation.definition.string.json",
     "settings": {
-      "foreground": "#80CBC4"
+      "foreground": "{{palette.green.cool}}"
     }
   },
   {
     "name": "Specific JSON Property values like null",
     "scope": "meta.structure.dictionary.json meta.structure.dictionary.value constant.language",
     "settings": {
-      "foreground": "#f77669"
+      "foreground": "{{palette.red.awesome}}"
     }
   }
 ]
