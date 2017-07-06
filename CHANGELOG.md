@@ -38,3 +38,7 @@
 ## 1.0.7
 * Added coloring for **template strings** globally as noted by [@codebeast](https://twitter.com/codebeast)
 * Updated **scrollbar** colors
+
+## 1.0.8
+* Changed URLs in **README.md** to **HTTPS**
+* Converted **Marketplace Preview Icon** to PNG
