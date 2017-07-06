@@ -10,6 +10,7 @@
       "sweet": "#B2CCD6",
       "nice": "#546E7A",
       "cool": "#DDDDDD",
+      "mild": "#697098",
       "awesome": "#bec5d4",
       "one": "#CDD3DE"
     },
@@ -19,7 +20,7 @@
     },
     "blue": {
       "light": "#8EACE3",
-      "sea": "#89DDFF",
+      "sea": "#89DDFF", // 9cc3d2
       "cool": "#82AAFF",
       "lighter": "#78ccf0",
       "sweet": "#82b1ff",
@@ -28,6 +29,7 @@
     "red": {
       "lighter": "#ff5874",
       "light": "#ff5370",
+      "cool": "#ff869a",
       "awesome": "#f77669"
     },
     "yellow": {
@@ -45,7 +47,7 @@
       "lighter": "#C3E88D"
     },
     "purple": "#c792ea",
-    "light-orange": "#F78C6C",
+    "orange": "#F78C6C",
     "winish": "#d3423e",
     "brownish": "#ec5f67",
     "awesome": "#1e3445",
