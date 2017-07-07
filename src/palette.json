@@ -20,7 +20,7 @@
     },
     "blue": {
       "light": "#8EACE3",
-      "sea": "#89DDFF", // 9cc3d2
+      "sea": "#89DDFF",
       "cool": "#82AAFF",
       "lighter": "#78ccf0",
       "sweet": "#82b1ff",
@@ -51,6 +51,17 @@
     "winish": "#d3423e",
     "brownish": "#ec5f67",
     "awesome": "#1e3445",
-    "so-awesome": "#91b6c4"
+    "so-awesome": "#91b6c4",
+
+    "ui": {
+      "base": "#7e57c2",
+      "background": "#292D3E",
+      "contrastColor": "#676E95",
+      "lightColor": "#2E3245",
+      "lineNumberFg": "#4c5374",
+      "borderColor": "#282B3C",
+      "danger": "#ef5350",
+      "error": "#EF5350"
+    }
   }
 }
