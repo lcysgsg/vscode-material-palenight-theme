@@ -4,8 +4,8 @@
       {
         "name": "Global settings",
         "settings": {
-          "background": "#292D3E",
-          "foreground": "#dce6f6"
+          "background": "{{palette.ui.background}}",
+          "foreground": "{{palette.grey.grey}}"
         }
       },
       {
@@ -188,7 +188,7 @@
           "support.constant"
         ],
         "settings": {
-          "foreground": "#75faff"
+          "foreground": "{{palette.blue.cool}}"
         }
       },
       {
@@ -284,7 +284,7 @@
         "name": "Meta Delimiter Period",
         "scope": "meta.delimiter.period",
         "settings": {
-          "foreground": "#d69dfb"
+          "foreground": "{{palette.purple}}"
         }
       },
       {
