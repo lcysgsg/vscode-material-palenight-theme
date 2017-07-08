@@ -1,5 +1,5 @@
 import gulp from 'gulp';
-import gulpStatsrig from 'gulp-stats';
+import gulpStats from 'gulp-stats';
 import tasks from './.gulp';
 
 // trigger gulp-stats
