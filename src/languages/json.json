@@ -24,7 +24,7 @@
     "name": "Specific JSON Property values like null",
     "scope": "meta.structure.dictionary.json meta.structure.dictionary.value constant.language",
     "settings": {
-      "foreground": "{{palette.red.awesome}}"
+      "foreground": "{{palette.red.lighter}"
     }
   }
 ]
