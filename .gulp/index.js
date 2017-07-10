@@ -3,4 +3,4 @@ import './tasks/themes';
 import './tasks/watcher';
 
 // export default script
-export default ['build:themes'];
+export default ['watch'];
