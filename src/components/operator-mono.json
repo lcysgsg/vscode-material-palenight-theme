@@ -9,7 +9,10 @@
       "entity.other.attribute-name",
       "entity.name.tag.custom",
       "source.js.jsx keyword.control.flow.js",
+      "support.type.property.css",
+      "support.function.basic_functions",
       "punctuation.section.embedded",
+      "constant.other.rgb-value.css"
       "variable.assignment.coffee",
       "constant.language.boolean",
       "constant.language.null",
