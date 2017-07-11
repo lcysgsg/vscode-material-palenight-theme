@@ -1,3 +1,9 @@
-{
-  
-}
+[
+  {
+    "name": "YAML Entity Name Tags",
+    "scope": "entity.name.tag.yaml",
+    "settings": {
+      "foreground": "{{palette.blue.sea}}"
+    }
+  }
+]

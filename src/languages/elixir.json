@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Elixir",
+    "scope": [
+      "source.elixir support.type.elixir",
+      "source.elixir meta.module.elixir entity.name.class.elixir"
+    ],
+    "settings": {
+      "foreground": "{{palette.blue.cool}}"
+    }
+  },
+  {
+    "name": "Elixir",
+    "scope": "source.elixir entity.name.function",
+    "settings": {
+      "foreground": "{{palette.yellow.dark}}"
+    }
+  },
+  {
+    "name": "Elixir",
+    "scope": [
+      "source.elixir constant.other.symbol.elixir",
+      "source.elixir constant.other.keywords.elixir"
+    ],
+    "settings": {
+      "foreground": "{{palette.blue.cool}}"
+    }
+  },
+  {
+    "name": "Elixir",
+    "scope": "source.elixir punctuation.definition.string",
+    "settings": {
+      "foreground": "{{palette.green.light}}"
+    }
+  },
+  {
+    "name": "Elixir",
+    "scope": [
+      "source.elixir variable.other.readwrite.module.elixir",
+      "source.elixir variable.other.readwrite.module.elixir punctuation.definition.variable.elixir"
+    ],
+    "settings": {
+      "foreground": "{{palette.yellow.dark}}"
+    }
+  },
+  {
+    "name": "Elixir",
+    "scope": "source.elixir .punctuation.binary.elixir",
+    "settings": {
+      "foreground": "{{palette.purple}}"
+    }
+  }
+]
