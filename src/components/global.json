@@ -1,5 +1,14 @@
 [
   {
+    "name": "Material Palenight",
+    "author": "Olaolu Olawuyi",
+    "maintainers": [
+      "Olaolu Olawuyi <whiskydee@gmail.com>"
+    ],
+    "type": "dark",
+    "semanticClass": "material-palenight"
+  },
+  {
     "tokenColors": [
       {
         "name": "Global settings",
