@@ -9,8 +9,8 @@ import paths from '../paths';
 
 gulp.task('watch', () => {
   gulp.watch([
-    `${paths.src.languages}/**/*.json`,
-    `${paths.src.components}/**/*.json`,
-    `${paths.src.palette}`
+    `${src.languages}/**/*.json`,
+    `${src.components}/**/*.json`,
+    `${src.palette}`
   ], ['build:themes']);
 });

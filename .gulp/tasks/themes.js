@@ -1,51 +1,48 @@
 'use strict';
 
 /*
- * > Build Themes
- */
+* > Build Themes
+*/
 
-import fs from 'fs';
 import gulp from 'gulp';
+import fs from 'fs';
+import jsonfile from 'jsonfile';
 import gutil from 'gulp-util';
 import Mustache from 'mustache';
 import YAML from 'yamljs';
 
 import paths from '../paths';
 
-const parsed = JSON.parse(fs.readFileSync('./package.json'));
+const parsed = jsonfile.readFileSync( './package.json' );
 
 // Read paths
 const src = paths.src;
-const languages = fs.readdirSync(src.languages);
-const components = fs.readdirSync(src.components);
-const palette = fs.readFileSync(src.palette);
-const dist = './themes/material-palenight-theme.json';
+const langDir = fs.readdirSync( src.languages );
+const dist = `${paths.themes}/material-palenight-theme.json`;
 
-gulp.task('build:themes', () => {
-  const fileContents = [];
-  // Function template to process my theme JSON files
-  const processFiles = function(dir, path) {
-    dir.forEach((file) => {
-      const name = file.split('.')[0];
-      const filepath = `${src.src}/${path}/${file}`;
-      const origContent = fs.readFileSync(filepath, 'utf-8', (data, err) => {
-        if (err) {
-          gutil.log(`Error while reading ${filepath}`, err);
-        }
-      });
-
-      JSON.stringify(origContent);
-      // const contents = ;
-      console.log(origContent);
-
-      // fs.writeFileSync(dist, contents, {spaces: 2 /*, flag: 'a'*/});
+// Function template to process individual JSON files
+const processFile = function( path ) {
+  if ( path === src.languages ) {
+    let dir = fs.readdirSync( src.languages );
+    dir.forEach( file => {
+      const filepath = `${src.languages}/${file}`;
+      let content = jsonfile.readFileSync( filepath, 'utf-8' );
+      console.log( content );
     });
+  } else {
+    let content = jsonfile.readFileSync( path, 'utf-8' );
   }
+}
 
-  // Initialize processing of the JSON files.
-  console.log(processFiles(components, 'components'))
-  // .then(() => {
-  //   console.log(processFiles(languages, 'languages'));
-  // });
+gulp.task( 'build:themes', () => {
+  const global = processFile(
+    `${src.components}/global.json`
+  );
+
+  const languages = processFile( `${src.languages}` );
+
+  const theme = processFile(
+    `${src.components}/interface.json`
+  );
 
 });
