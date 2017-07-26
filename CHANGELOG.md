@@ -36,7 +36,7 @@
 * Updated **CHANGELOG.md**
 
 ## 1.0.7
-* Added coloring for **template strings** globally as noted by [@codebeast](https://twitter.com/codebeast)
+* Added coloring for **template strings** globally as noted by @codebeast
 * Updated **scrollbar** colors
 
 ## 1.0.8
@@ -52,3 +52,15 @@
 * Fixed some deprecated selectors caused by `vscode@v1.14.0`
 * Updated my **Twitter** URL
 * Updated **README**
+
+## 1.0.11
+* Made **tag match** highlight more visible as noted by @Niichie in #1
+* Added coloring for language constants in **PHP**
+* Added more scopes to **Punctuation Tweaks** for coloring
+* Updated theme **description** globally
+* Fixed **premature** release
+
+## 1.0.12
+* Changed coloring for language constants in **PHP** back
+* Updated link to my name in **README**
+* Other **minor changes**

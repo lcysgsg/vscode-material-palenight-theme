@@ -1,6 +1,6 @@
 # VS Code Material Palenight Theme
 
-🌑 An elegant and minimal material syntax theme for VS Code.
+🌑 An elegant and juicy material-like theme for Visual Studio Code.
 
 ![Theme Preview](https://i.imgur.com/MeREowJ.png)
 
@@ -26,4 +26,4 @@ Feel free to report [here](https://github.com/whizkydee/vscode-material-palenigh
 ## License
 This theme is released under the [MIT License](https://github.com/whizkydee/vscode-material-palenight-theme/blob/master/LICENSE.md).
 
-Designed with ❤️️ by [Olaoluwa](https://whizkydee.github.io). Follow him on [GitHub](https://github.com/whizkydee)
+Designed with ❤️️ by [Olaoluwa](https://twitter.com/mrolaolu). Follow him on [GitHub](https://github.com/whizkydee)
