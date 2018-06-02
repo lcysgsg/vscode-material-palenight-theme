@@ -1,4 +1,30 @@
-# Material Palenight Theme for VS Code
+# Frok from Material
+
+be designed to resolve match/find highlight not eye-catching.
+modified:
+
+```
+-    "editor.selectionHighlightBackground": "#383D51",
++    "editor.selectionHighlightBackground": "#434343",
+
+-    "editor.wordHighlightStrongBackground": "#2E3250",
++    "editor.wordHighlightStrongBackground": "#5A448A",
+
+-    "editor.findMatchHighlightBackground": "#2E3248",
++    "editor.findMatchHighlightBackground": "#434343",
+```
+
+#### before:
+
+![not eye-catching pic](https://user-images.githubusercontent.com/19550000/40584867-680d9ea6-61db-11e8-907f-726c52ffdbc7.png)
+
+#### after:
+
+![eye-catching pic](https://wx4.sinaimg.cn/mw690/006gPmeoly1frwy7h0yl3j30ha0hswfz.jpg)
+
+> the following is the original text
+
+## Material Palenight Theme for VS Code
 
 🍹🎨 An elegant and juicy material-like theme for Visual Studio Code.
 
@@ -8,12 +34,12 @@
 
 # Installation
 
-1. Open the **Extensions** sidebar in VS Code. `View → Extensions`
-1. Search for `Palenight`, choose "Material Palenight Theme" by **whizkydee**
-1. Click **Install** to install it
-1. Click **Reload** to reload your editor
-1. Navigate to File > Preferences > Color Theme > **Palenight Theme** or any of the variants listed
-1. Yay! You're all set 🎉🎉.
+1.  Open the **Extensions** sidebar in VS Code. `View → Extensions`
+1.  Search for `Palenight`, choose "Material Palenight Theme" by **whizkydee**
+1.  Click **Install** to install it
+1.  Click **Reload** to reload your editor
+1.  Navigate to File > Preferences > Color Theme > **Palenight Theme** or any of the variants listed
+1.  Yay! You're all set 🎉🎉.
 
 Psst! If you have the [Operator Mono](https://www.typography.com/fonts/operator) font installed, find **Palenight Operator** in the theme list. Also, check out **Palenight Italic** for a less operator-mono-ish experience.
 
@@ -22,7 +48,6 @@ _There's also an [Atom version](https://atom.io/themes/material-palenight-syntax
 ## Community
 
 Since the launch of this theme, it's been used by great developers including the amazing [Sarah Drasner](https://twitter.com/sarah_edo/status/996830819380486144), [Cory House](https://twitter.com/housecor/status/915766278211686400), [Chris Sevilleja](https://twitter.com/chrisoncode/status/908457702157778944) amongst others. It's been featured on Wes Bos' [Syntax.fm podcast](https://syntax.fm/show/012/why-is-everyone-switching-to-vs-code) and [Scotch.io](https://scotch.io/bar-talk/best-vs-code-themes-of-2017#2-material-palenight-theme) as a recommended theme and has gotten hundreds of positive reviews.
-
 
 ## Contributing
 

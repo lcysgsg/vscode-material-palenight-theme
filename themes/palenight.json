@@ -80,12 +80,12 @@
     "editorLineNumber.foreground": "#4c5374",
     "editorCursor.foreground": "#7e57c2",
     "editor.selectionBackground": "#7580B850",
-    "editor.selectionHighlightBackground": "#383D51",
+    "editor.selectionHighlightBackground": "#434343",
     "editor.inactiveSelectionBackground": "#7e57c25a",
     "editor.wordHighlightBackground": "#32374D",
-    "editor.wordHighlightStrongBackground": "#2E3250",
+    "editor.wordHighlightStrongBackground": "#5A448A",
     "editor.findMatchBackground": "#7e57c25a",
-    "editor.findMatchHighlightBackground": "#2E3248",
+    "editor.findMatchHighlightBackground": "#434343",
     "editor.findRangeHighlightBackground": null,
     "editor.hoverHighlightBackground": "#7e57c25a",
     "editor.lineHighlightBackground": "#0003",
@@ -201,8 +201,7 @@
     "gitDecoration.conflictingResourceForeground": "#FFEB95CC",
     "editorActiveLineNumber.foreground": "#eeffff"
   },
-  "tokenColors": [
-    {
+  "tokenColors": [{
       "name": "Global settings",
       "settings": {
         "background": "#292D3E",
