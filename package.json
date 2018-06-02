@@ -4,25 +4,20 @@
   "author": "Olaolu Olawuyi <mrolaolu@gmail.com> (http://twitter.com/mrolaolu)",
   "displayName": "Material Palenight Theme",
   "version": "1.8.0",
-  "description": "An elegant and juicy material-like theme for Visual Studio Code.",
+  "description":
+    "An elegant and juicy material-like theme for Visual Studio Code. fork form https://github.com/mrolaolu/vscode-material-palenight-theme",
   "galleryBanner": {
     "color": "#31364A",
     "theme": "dark"
   },
   "icon": "icon.png",
-  "keywords": [
-    "material theme",
-    "palenight",
-    "material",
-    "purple",
-    "dark"
-  ],
+  "keywords": ["material theme", "palenight", "material", "purple", "dark"],
   "repository": {
-    "url": "https://github.com/whizkydee/vscode-material-palenight-theme",
+    "url": "https://github.com/lcysgsg/vscode-material-palenight-theme",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/whizkydee/vscode-material-palenight-theme/issues"
+    "url": "https://github.com/lcysgsg/vscode-material-palenight-theme/issues"
   },
   "license": "MIT",
   "engines": {
@@ -32,24 +27,21 @@
     "start": "nodemon --exec vsce package",
     "build": "nodemon --watch src src"
   },
-  "categories": [
-    "Themes",
-    "Other"
-  ],
+  "categories": ["Themes", "Other"],
   "contributes": {
     "themes": [
       {
-        "label": "Palenight Theme",
+        "label": "lcy Palenight Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/palenight.json"
       },
       {
-        "label": "Palenight Italic",
+        "label": "lcy Palenight Italic",
         "uiTheme": "vs-dark",
         "path": "./themes/palenight-italic.json"
       },
       {
-        "label": "Palenight Operator",
+        "label": "lcy Palenight Operator",
         "uiTheme": "vs-dark",
         "path": "./themes/palenight-operator.json"
       }
@@ -58,5 +50,10 @@
   "devDependencies": {
     "nodemon": "^1.12.1",
     "vsce": "^1.31.0"
+  },
+  "__metadata": {
+    "id": "7f147721-ec06-4043-9e37-c9ffbecbccd1",
+    "publisherId": "942a68c7-9bce-4e1c-9bb0-828710897a61",
+    "publisherDisplayName": "whizkydee"
   }
 }
